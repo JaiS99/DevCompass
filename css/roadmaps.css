@@ -201,9 +201,8 @@ body {
     column-gap: 20px;
     width: 80%;
   }
-  button{
+  .grid-item{
     text-align: center;
-    height: 70px;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -211,19 +210,21 @@ body {
     line-height: normal;
     font-family: "Inter", sans-serif;
     color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: #7e1d96;
     border: 0px;
-    align-items: center;
   }
 
-  button:hover{
+  a:hover{
     border: 5px solid white;
     background-color: #b113eb;;
   }
+
   .grid-container a{
     text-decoration: none;
     color: #fff;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #7e1d96;
+    display: flex;
+    justify-content: center;
+    align-items:center;
   }
