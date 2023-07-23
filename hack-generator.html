@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <title>Hackathon Project Idea Generator</title>
+   <link rel="stylesheet" href="./css/hack-generator.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="./img/logo.svg"></div>
+    <ul class="nav-links"> 
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <div class="menu">
+        <li><a class="nodecor" href="index.html">Home</a></li>
+        <li><a href="/">Roadmaps</a></li>
+        <li><a href="/">Guides</a></li>
+        <li><a href="/">Hackathon Guide!</a></li>
+      </div>
+    </ul>
+  </nav>
+  
+  <center>
+    <div id="container">
+      <h1 id="projectname" class="container-h1">Hackathon Project Idea Generator</h1>
+      <p id="questions">Preparing for a hackathon? No idea what to build?</p>
+      <p id="introtobutton">Get inspired! Click below for project ideas. Good luck!</p>
+      <div id="main-generator"><div id="getARandomName"></div>
+      <p id="getARandomDescription"></p>
+      </div>
+      
+      <button id="generator" class="button">Generate Idea</button>
+    </div>
+    <img class="cube" src="./img/Union.svg" alt="Cube Image" >
+  </center>
+
+<script src="./js/script.js"></script>
+  
+</body>
+</html>

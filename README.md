@@ -1,3 +1,4 @@
+
 # DevCompass (CodeExplorers)
 
 ![DevCompass Logo](./logo-1.png) <!-- Replace with your logo URL -->
@@ -61,4 +62,3 @@ We would like to express our gratitude to all the contributors and supporters wh
 Let's explore the fascinating world of coding together! Happy coding!
 
 ---
-

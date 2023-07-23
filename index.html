@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>DevCompass</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,24 +12,43 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+    </style>
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#000000">
 </head>
 
 <body>
-
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="js/app.js"></script>
-
+  <nav class="navbar">
+    <div class="logo"><img src="./img/logo.svg"></div>
+    <ul class="nav-links"> 
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <div class="menu">
+        <li><a class="nodecor" href="index.html">Home</a></li>
+        <li><a href="/">Roadmaps</a></li>
+        <li><a href="blogs.html">Guides</a></li>
+        <li><a href="/">Hackathon Idea Generator</a></li>
+      </div>
+    </ul>
+  </nav>
+<img class="cube" src="./img/Union.svg" alt="Cube Image" >
+<div class="container-h1">
+<h1>Hey there, Welcome to DevCompass!</h1>
+</div>
+<div class="container-h2">
+<h2>What is DevCompass?</h2>
+<p>DevCompass is a one-stop solution for all first-time hackers. Explore blockchains, hackathons, and more, as we've got your back. </p>
+<p>With our comprehensive solutions and expert guidance, embark on your hacking journey with confidence. Join our thriving community and unleash your potential today.<p>
+</div>
+<button>Get Started</button>
 </body>
-
 </html>
