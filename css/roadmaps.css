@@ -223,3 +223,7 @@ body {
     border: 5px solid white;
     background-color: #b113eb;;
   }
+  .grid-container a{
+    text-decoration: none;
+    color: #fff;
+  }
