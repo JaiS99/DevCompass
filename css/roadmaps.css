@@ -211,14 +211,15 @@ body {
     line-height: normal;
     font-family: "Inter", sans-serif;
     color: white;
-    border: 2px solid white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    background-color: #b113eb;
+    background-color: #7e1d96;
+    border: 0px;
     align-items: center;
   }
 
   button:hover{
     border: 5px solid white;
+    background-color: #b113eb;;
   }
